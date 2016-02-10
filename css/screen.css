@@ -1,0 +1,125 @@
+@import "reset.css";
+
+@font-face {
+    font-family: Helvetica Neue Condensed Bold;
+    src: url(HelveticaNeue-CondensedBold.ttf);
+}
+
+
+
+body {
+    background-color: #0e2521;
+    color: #0d2420;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+
+}
+
+.main {
+    max-width: 1200px;
+    min-width: 980px;
+    margin: 0 auto;
+}
+
+.contacts {
+    padding: 0.5em 0;
+    text-align: right;
+    width: 100%;
+    color: #fff4c8;
+    font-family: "HelveticaNeue-Light", sans-serif;
+}
+
+.contacts strong {
+    padding-right: 0.4em;
+
+}
+
+.menuWrapper {
+    background-color: #720b00;
+    width: 100%;
+}
+
+.menu {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0.5em 20px;
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+}
+
+.menu li {
+    display: inline-block;
+    padding-right: 1em;
+}
+
+.menu a,
+.menu a:link,
+.menu a:visited,
+.menu a:hover,
+.menu a:active {
+    color: #fff4c8;
+    text-decoration: none;
+}
+
+.promo {
+    width: 100%;
+    height: 186px;
+    background: #70764f;
+    color: #fff;
+}
+
+.contentWrapper {
+    background-color: #fff;
+    width: 100%;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0.5em 20px;
+    overflow: hidden;
+}
+
+.welcome {
+    font-family: "HelveticaNeue-Light", sans-serif;
+}
+
+.product h1 {
+    font-weight: normal;
+    font-family: "HelveticaNeue-Light", sans-serif;
+}
+
+.productGallery {
+    width: 100%;
+    height: 124px;
+    background: gray;
+    clear: both;
+}
+
+.productPhoto {
+    width: 460px;
+    height: 620px;
+    background: beige;
+    float: left;
+}
+
+.productOverview {
+    width: 480px;
+    margin-left: 460px;
+}
+
+.productPrice {
+    font-family: "HelveticaNeue-Light", sans-serif;
+    color: #720b00;
+}
+
+.productPrice strong {
+    font-family: "HelveticaNeue-Bold", sans-serif;
+}
+
+.productPriceOld {
+    color: #999999;
+    display: block;
+}
